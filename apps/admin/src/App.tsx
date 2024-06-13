@@ -1,4 +1,4 @@
-import { plusOne } from "@baas/shared";
+import { plusOne } from '@baas/shared';
 
 function App() {
   return (

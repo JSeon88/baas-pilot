@@ -1,4 +1,5 @@
 // 공통 eslint 설정
+/** @type {import("eslint").ESLint.ConfigData} */
 module.exports = {
   // 필요한 플러그인을 여기에 정의합니다.
   plugins: ["simple-import-sort"],

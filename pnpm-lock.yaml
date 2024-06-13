@@ -26,6 +26,9 @@ importers:
       '@baas/eslint-config':
         specifier: workspace:*
         version: link:../../packages/configs/eslint-config
+      '@baas/prettier-config':
+        specifier: workspace:*
+        version: link:../../packages/configs/prettier-config
       '@types/react':
         specifier: ^18.2.66
         version: 18.3.3
@@ -91,9 +94,9 @@ importers:
         version: 5.4.5
 
   packages/configs/prettier-config:
-    devDependencies:
+    dependencies:
       prettier:
-        specifier: ^3.3.2
+        specifier: '>=3'
         version: 3.3.2
 
   packages/shared:
@@ -2388,6 +2391,7 @@ packages:
     resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: false
 
   /prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
