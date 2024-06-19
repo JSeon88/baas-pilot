@@ -27,7 +27,8 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "@baas/eslint-config": "workspace:*",
-    "@baas/prettier-config": "workspace:*"
+    "@baas/prettier-config": "workspace:*",
+    "@baas/components-react": "workspace:*"
   },
   "prettier": "@baas/prettier-config"
 }

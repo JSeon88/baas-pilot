@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "admin:dev": "pnpm --filter admin dev",
-    "shared:build": "pnpm --filter @baas/shared build"
+    "components:dev": "pnpm --filter @baas/components-react dev",
+    "utils:build": "pnpm --filter @baas/utils build",
+    "components:build": "pnpm --filter @baas/components-react build"
   },
   "keywords": [],
   "author": "",
