@@ -6,10 +6,7 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: [
-    '@baas/eslint-config', // 공용 ESLint 컨피그 불러오기
-    '@baas/eslint-config/mixins/react', // React용 ESLint 컨피그 불러오기
-  ],
+  extends: ['@baas/eslint-config', '@baas/eslint-config/mixins/react', 'plugin:storybook/recommended'],
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
