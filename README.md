@@ -1,7 +1,7 @@
 # Baas-Pilot
 
 ## 폴더 구조
-```
+```text
 ├── apps                              서비스들
 │   └── admin
 │       └── package.json
@@ -25,8 +25,8 @@
 
 ## 공통 prettier ignore 파일 관리
 * 각 프로젝트의 모든 prettier의 ignore 부분은 각자 프로젝트에서 관리하는것이 아닌 공통 파일 하나로 관리.
-  * 만약 프로젝트의 이왕이면 프로젝트 경로를 명시적으로 써주는 걸 권장
-  ```
+  * 이왕이면 프로젝트 경로를 명시적으로 써주는 걸 권장
+  ```text
   // 공통
   *.md
 
@@ -34,3 +34,15 @@
   apps/admin/블라브라
   ```
 * 각 프로젝트의 prettier 실행 스크립트에서는 루트의 ignore 파일 경로 설정 할 것.
+
+## 실행
+```bash
+# admin 실행
+pnpm admin:dev
+# components 실행
+pnpm components:dev
+# utils 빌드
+pnpm utils:build
+# components 빌드
+pnpm components:build
+```
