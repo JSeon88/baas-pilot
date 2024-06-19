@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-tui": "^5.5.0",
     "eslint-plugin-prettier": "^5.1.3",
