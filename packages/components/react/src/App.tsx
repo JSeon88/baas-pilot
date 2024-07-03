@@ -1,9 +1,9 @@
-import Button from './components/Button';
+import Grid from './components/Grid/Grid';
 
 function App() {
   return (
     <>
-      <Button></Button>
+      <Grid></Grid>
     </>
   );
 }
